@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kazakhstan Travel Guide</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="bg-green-300 text-white p-4 sticky top-0 z-50">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold">Kazakhstan Guide</a>
+            <ul class="flex space-x-4">
+                <li><a href="#about" class="hover:text-amber-400">About Kazakhstan</a></li>
+                <li><a href="#travel-guide" class="hover:text-yellow-300">Travel Guide</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Homepage -->
+    <section id="home" class="relative h-screen bg-cover bg-center" style="background-image: url('https://imageio.forbes.com/specials-images/imageserve/66b10a811819e8427fea4917/A-look-at-Astana-s-astounding-architecture-/960x0.jpg?format=jpg&width=960');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
+            <h1 class="text-5xl font-bold mb-4">Welcome to Kazakhstan</h1>
+            <p class="text-xl mb-8">Land of Wonders</p>
+            <p class="text-lg mb-8 max-w-2xl">Discover the beauty, culture, and adventure that await in Kazakhstan. From vast steppes to towering mountains, ancient traditions to modern cities, Kazakhstan offers a unique experience for every traveler.</p>
+            <div class="space-x-4">
+                <a href="#about" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Learn More</a>
+                <a href="#travel-guide" class="bg-green-300 hover:bg-green-400 text-white font-bold py-2 px-4 rounded">Plan Your Trip</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Kazakhstan Page -->
+    <section id="about" class="bg-stone-600 py-12" style="background-image: url('https://www.chowtraveller.com/wp-content/uploads/2018/07/DSCF7971-e1531808228357.jpg');">
+        <div class="container mx-auto p-8">
+            <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
+            <h1 class="text-4xl font-bold mb-8 text-center">About Kazakhstan</h1>
+
+            <!-- Geography -->
+            <div class="font-bold mb-12">
+                <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4"></div>
+                <h2 class="text-3xl font-bold mb-4">Geography</h2>
+                <p class="font-bold mb-4">Kazakhstan, the ninth-largest country in the world, spans over 2.7 million square kilometers in Central Asia. It borders Russia, China, Kyrgyzstan, Uzbekistan, and Turkmenistan, featuring diverse landscapes such as steppes, deserts, mountains, and lakes.</p>
+                <img src="https://www.google.com/maps/vt/data=vVrLJ1myUDsLSZlAoMbeJSQpWf9VFl7btQftFzu0IXjH-DMISUSJ5IqdFrGR9ckUkFBKC85OYDwUO9YD5hJv9ukx2VUaXgXunn-ldXI9j95pn7zKAS1u_3xM-IUbsK_d7MfX6XWsEEcvLrsizTr-GTXZ0DnZnAkIzF1HQNl8CC_S0YMI0zo6HCF6Tz4jfsPImt-py6ESeWdj4KqRq5CSfbBHBHrNVXDugNUNrv6ygbbMtYcYGiu7zH-i6hABlUHK_SlV0J6li-TstMsEKgqg9fXLfp9eJv9E5VbW45HFSOBuOT8" alt="Map of Kazakhstan" class="w-full h-64 object-cover rounded-lg mb-4">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Steppe_of_western_Kazakhstan_in_the_early_spring.jpg" alt="Kazakh steppe" class="w-full h-48 object-cover rounded-lg">
+                    <img src="https://www.remotelands.com/remotenew1/dist/images/country/kazakhstan/city/14042107/b170627006.jpg" alt="Kazakh mountains" class="w-full h-48 object-cover rounded-lg">
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="mb-12">
+                <h2 class="text-3xl font-bold mb-4">Languages</h2>
+                <p class="font-bold mb-4">Kazakhstan's official languages are Kazakh, a Turkic language, and Russian, widely used in business and government. English is less common, making basic Kazakh or Russian phrases useful for travelers.</p>
+                <table class="table-auto w-full mb-4 bg-white rounded-lg shadow text-black"> 
+                    <thead>
+                        <tr class="bg-green-100">
+                            <th class="px-4 py-2">English</th>
+                            <th class="px-4 py-2">Kazakh</th>
+                            <th class="px-4 py-2">Russian</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border px-4 py-2">Hello</td>
+                            <td class="border px-4 py-2">Salem</td>
+                            <td class="border px-4 py-2">Zdravstvuyte</td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">Thank you</td>
+                            <td class="border px-4 py-2">Rahmet</td>
+                            <td class="border px-4 py-2">Spasibo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Culture -->
+            <div>
+                <h2 class="text-3xl font-bold mb-4">Culture</h2>
+                <p class="font-bold mb-4">Rooted in nomadic traditions, Kazakh culture values hospitality, with traditional music, dance, and crafts playing a central role. Festivals like Nauryz (New Year) celebrate this rich heritage.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <img src="https://i.pinimg.com/736x/b0/8f/b7/b08fb77bdfe8e0186b8dd13781bddc77.jpg" alt="Traditional Kazakh clothing" class="w-full h-48 object-cover rounded-lg">
+                    <img src="https://visitmangystau.kz/storage/uploads/places/109943022-w640-h640-kazahskie-natsionalnye-muzykalnye-2020-06-14-080808.jpg" alt="Traditional music instruments" class="w-full h-48 object-cover rounded-lg">
+                    <img src="https://cdn.mongolia-guide.com/generated/event/EaefUkAx0g5x3ecbr5fx7Nqk544qAcaD53FSiuoc_1920_1000.jpeg" alt="Nauryz festival" class="w-full h-48 object-cover rounded-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Guide Page -->
+    <section id="travel-guide" class="py-12" style="background-image: url('https://trvlland.com/wp-content/uploads/2022/12/kazakhstan_mountains_peak-khan-tengri.jpg');">
+        <div class="container mx-auto p-8">
+            <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
+            <h1 class="text-4xl font-bold mb-8 text-center">Travel Guide</h1>
+
+            <!-- Leisure Activities -->
+            <div class="font-bold mb-12">
+                <h2 class="text-3xl font-bold mb-4">Leisure Activities</h2>
+                <p class="mb-4">Kazakhstan offers diverse activities for outdoor enthusiasts and culture lovers alike:</p>
+                <ul class="list-disc list-inside mb-4">
+                    <li>Hiking in the Tian Shan mountains</li>
+                    <li>Skiing in Shymbulak</li>
+                    <li>Horseback riding on the steppe</li>
+                    <li>Visiting museums and art galleries</li>
+                    <li>Exploring local markets like the Green Bazaar</li>
+                </ul>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <img src="https://worldexpeditions.com/croppedimages/Central-Asia-_-Middle-East/Kyrgyzstan/LachlanGardiner_WorldEx_Kyrgyzstan2024_HIGHRES-DJI_0581-4347979-1100px.jpg?1732159531" alt="Hiking in Tian Shan" class="w-full h-48 object-cover rounded-lg">
+                    <img src="https://www.reallybigbikeride.com/wp-content/uploads/2024/03/shymbulak-mountain-resort-celebrated-70-years-in-2024.jpg" alt="Skiing in Shymbulak" class="w-full h-48 object-cover rounded-lg">
+                </div>
+            </div>
+
+            <!-- Famous Delicacies -->
+            <div class="font-bold mb-12">
+                <h2 class="text-3xl font-bold mb-4">Famous Delicacies</h2>
+                <p class="mb-4">Kazakh cuisine reflects its nomadic roots with hearty, meat- and dairy-based dishes:</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <img src="https://blog.remitly.com/wp-content/uploads/2023/09/kazakhstan-beshbarmak-scaled.jpg" alt="Beshbarmak" class="w-full h-48 object-cover rounded-lg mb-2">
+                        <p><strong>Beshbarmak</strong>: National dish of boiled meat and pasta.</p>
+                    </div>
+                    <div>
+                        <img src="https://cookingcounty.top/wp-content/uploads/2023/07/Kazy-food-500x500.webp" alt="Kazy" class="w-full h-48 object-cover rounded-lg mb-2">
+                        <p><strong>Kazy</strong>: Traditional horse meat sausage.</p>
+                    </div>
+                    <div>
+                        <img src="https://astana.citypass.kz/wp-content/uploads/s1200-3.jpg" alt="Kumis" class="w-full h-48 object-cover rounded-lg mb-2">
+                        <p><strong>Kumis</strong>: Fermented mare's milk, a cultural staple.</p>
+                    </div>
+                    <div>
+                        <img src="https://emkayskitchen.com/wp-content/uploads/2022/05/Serve2-1-1024x768.jpg" alt="Plov" class="w-full h-48 object-cover rounded-lg mb-2">
+                        <p><strong>Plov</strong>: Rice dish with meat and vegetables.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Must-Visit Places -->
+            <div>
+                <h2 class="text-3xl font-bold mb-4">Five Must-Visit Places</h2>
+                <p class="font-bold mb-6">Explore these top attractions showcasing Kazakhstan's best:</p>
+                <div class="font-bold space-y-12">
+                    <!-- Almaty -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <img src="https://lp-cms-production.imgix.net/2024-10/GettyImages-1812852521-cropped.jpg?auto=compress&format=auto&fit=crop&q=50&w=1200&h=800" alt="Almaty" class="w-full h-64 object-cover rounded-lg">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2">Almaty</h3>
+                            <p class="mb-2">The largest city and cultural hub, nestled against stunning mountains.</p>
+                            <h4 class="text-xl font-semibold mb-1">Why It's a Top Attraction:</h4>
+                            <ul class="list-disc list-inside">
+                                <li>Rich history with landmarks like Zenkov Cathedral</li>
+                                <li>Vibrant arts scene and bustling markets</li>
+                                <li>Nearby outdoor adventures like skiing and hiking</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Charyn Canyon -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <img src="https://pinayhakawati.com/wp-content/uploads/2024/07/Charyn-Canyon.jpg" alt="Charyn Canyon" class="w-full h-64 object-cover rounded-lg">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2">Charyn Canyon</h3>
+                            <p class="mb-2">A natural wonder with dramatic landscapes and unique rock formations.</p>
+                            <h4 class="text-xl font-semibold mb-1">Why It's a Top Attraction:</h4>
+                            <ul class="list-disc list-inside">
+                                <li>Stunning scenery perfect for photography</li>
+                                <li>Hiking and rafting opportunities</li>
+                                <li>Chance to spot local wildlife</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Lake Kaindy -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <img src="https://images.wanderon.in/blogs/new/2024/08/kaindy-lake-almaty-kazakhstans-hidden-underwater-forest.jpg" alt="Lake Kaindy" class="w-full h-64 object-cover rounded-lg">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2">Lake Kaindy</h3>
+                            <p class="mb-2">A surreal lake with a submerged forest and turquoise waters.</p>
+                            <h4 class="text-xl font-semibold mb-1">Why It's a Top Attraction:</h4>
+                            <ul class="list-disc list-inside">
+                                <li>Unique underwater forest phenomenon</li>
+                                <li>Peaceful setting for hiking and picnics</li>
+                                <li>Scuba diving to explore the depths</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Astana (Nur-Sultan) -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <img src="https://media.istockphoto.com/id/1356775701/photo/the-capital-of-kazakhstan-the-city-of-nur-sultan-on-a-winter-evening.jpg?s=612x612&w=0&k=20&c=lqyyHSIWiEafgVatxHa1jGbqLG5q5Iwz3Fe2ULGLpZg=" alt="Astana" class="w-full h-64 object-cover rounded-lg">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2">Astana (Nur-Sultan)</h3>
+                            <p class="mb-2">The capital city, known for futuristic architecture and cultural landmarks.</p>
+                            <h4 class="text-xl font-semibold mb-1">Why It's a Top Attraction:</h4>
+                            <ul class="list-disc list-inside">
+                                <li>Iconic Bayterek Tower and modern skyline</li>
+                                <li>Rich museums and cultural centers</li>
+                                <li>Blend of tradition and modernity</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Turkestan -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <img src="https://img.freepik.com/premium-photo/mausoleum-khoja-ahmed-yasawi-city-turkestan-reconstruction-unesco-world-heritage-site-religious-site-travel-tourism-concept-silk-road-08152024-turkestan-kazakhstan_811250-14539.jpg" alt="Turkestan" class="w-full h-64 object-cover rounded-lg">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2">Turkestan</h3>
+                            <p class="mb-2">A historic city with deep cultural and architectural significance.</p>
+                            <h4 class="text-xl font-semibold mb-1">Why It's a Top Attraction:</h4>
+                            <ul class="list-disc list-inside">
+                                <li>UNESCO-listed Mausoleum of Khoja Ahmed Yasawi</li>
+                                <li>Ancient Silk Road ruins like Otrar</li>
+                                <li>Unique nomadic and urban heritage</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-300 text-gray-900 p-4 text-center">
+        <p>&copy; 2025 Kazakhstan Travel Guide.</p>
+    </footer>
+</body>
+</html>
